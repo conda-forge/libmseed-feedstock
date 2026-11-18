@@ -1,5 +1,5 @@
 context:
-  version: "3.5.4"
+  version: "3.5.5"
 
 package:
   name: libmseed
@@ -7,10 +7,10 @@ package:
 
 source:
   url: https://github.com/EarthScope/libmseed/archive/refs/tags/v${{ version }}.tar.gz
-  sha256: f397b9a32714164d6440b9eeadfbf5b4aece46184515b6ba48941e2cbcb4806a
+  sha256: 14693c233196e088a14a534b31763e752af24ed29646abaf64c93f3f94f7e854
 
 build:
-  number: 1
+  number: 0
   skip: win
 
 requirements:
